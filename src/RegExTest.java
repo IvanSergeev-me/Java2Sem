@@ -70,7 +70,7 @@ public class RegExTest{
 
         //17
         //nput = ""; //e-mail
-        //regex = ""; //?
+        regex = "\\w+[-.]*\\w+\\@[a-zA-z]+\\.[a-zA-z]+"; //?
 
         boolean result = input.matches(regex); //проверка строки на соответсвие регулярному выражению
         System.out.println(result);
